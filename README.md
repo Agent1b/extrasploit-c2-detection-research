@@ -173,8 +173,8 @@ This is the most important section. Building the RAT taught me how to **detect a
 │  │   Kali Linux      │  │    Windows 11 Pro    ││
 │  │   (Controller)    │  │    (Target Agent)    ││
 │  │                   │  │                      ││
-│  │  IP: 192.168.133  │  │  IP: 192.168.133    ││
-│  │      .128         │  │      .188            ││
+│  │                   │  │                      ││
+│  │                   │  │                      ││
 │  │                   │  │                      ││
 │  │  Python 3.13      │  │  .NET Runtime 6.0   ││
 │  │  prompt_toolkit   │  │  Agent.exe (67MB)   ││
@@ -189,7 +189,7 @@ This is the most important section. Building the RAT taught me how to **detect a
 ```
 
 - **Attacker Machine:** Kali Linux 2024.x, Python 3.13, .NET SDK 6.0 (for cross-compilation)
-- **Target Machine:** Windows 11 Pro 22H2, .NET Runtime 6.0, Windows Defender enabled
+- **Target Machine:** Windows 11 Pro 25H2, .NET Runtime 6.0, Windows Defender enabled
 - **Network:** VMware host-only adapter — fully isolated, no internet access
 - **Virtualization:** VMware Workstation with snapshots for clean test states
 
