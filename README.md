@@ -1,6 +1,6 @@
 # 🛡️ Custom C2 Framework — Detection Research for Blue Teams
 
-> **Defensive security research.** This repository analyzes how custom-built C2 frameworks operate on the wire and on endpoints, and documents the detection opportunities, IOCs, and Sigma rules SOC analysts can use to identify them.
+> **Detection engineering research for blue teams:** Detection engineering research for blue teams: lab-generated C2 telemetry, IOCs, MITRE ATT&CK mapping, and Sigma rules. Documentation only; no source code or binaries..
 
 ## ⚠️ Disclaimer
 
