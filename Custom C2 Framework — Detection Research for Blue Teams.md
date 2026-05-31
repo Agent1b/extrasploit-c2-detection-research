@@ -10,7 +10,7 @@ This repository contains **defensive security research only**. No source code or
 
 **How do custom-built C2 frameworks — the kind that don't match any known signature — operate in practice, and what behavioral, network, and registry indicators allow SOC analysts to detect them reliably?**
 
-To answer this, a full C2 framework was developed from scratch (no Metasploit, no Cobalt Strike, no Sliver) in an isolated lab to generate authentic telemetry. The framework was then analyzed from a defender's perspective across every phase: initial callback, command execution, feature modules (keylogging, screen capture, audio/video), persistence, and session recovery.
+To answer this, lab-generated C2-like telemetry was used as the object of study (no Metasploit, no Cobalt Strike, no Sliver) in an isolated lab to generate authentic telemetry. The framework was then analyzed from a defender's perspective across every phase: initial callback, command execution, feature modules (keylogging, screen capture, audio/video), persistence, and session recovery.
 
 ## 🛡️ Detection Content (Jump To)
 
